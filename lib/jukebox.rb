@@ -32,9 +32,11 @@ while user_input = gets.chomp
   when "list"
     list
     break
-  else "exit"
+  when "exit"
     exit_jukebox
     break
+  else
+    puts "Incorrect command."
   end
   end
 end
