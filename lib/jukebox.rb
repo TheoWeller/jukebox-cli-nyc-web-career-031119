@@ -25,7 +25,7 @@ while user_input = gets.chomp
   case user_input
   when "help"
     break
-    help
+    help()
   when "play"
     play
     break
