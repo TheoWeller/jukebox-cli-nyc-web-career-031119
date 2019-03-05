@@ -24,8 +24,9 @@ def list
     "Harry Chapin - Cats in the Cradle",
     "Amos Lee - Keep It Loose, Keep It Tight"
   ]
-  
-  puts "#{songs}"
+  songs.each do |song|
+  puts song
+end
 end
 
 def exit_jukebox
