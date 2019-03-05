@@ -35,4 +35,5 @@ def run
       puts "Incorrect command."
     end
     end
+  end
 run
