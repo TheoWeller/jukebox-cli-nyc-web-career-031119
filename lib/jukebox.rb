@@ -1,6 +1,6 @@
 #require 'pry'
 
-
+require_relative "../bin/jukebox"
 def help
   puts "I accept the following commands:
   - help : displays this help message
