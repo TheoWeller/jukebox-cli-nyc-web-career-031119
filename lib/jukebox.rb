@@ -22,11 +22,14 @@ def run
 while user_input = gets.chomp
   case user_input
   when "help"
+    break
     help
   when "play"
     play
+    break
   when "list"
     list
+    break
   else "exit"
     exit_jukebox
     break
