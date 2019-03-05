@@ -21,7 +21,6 @@ def run
   help
   puts "Please enter a command:"
   #binding.pry
-  user_input = ""
 while user_input = gets.chomp
   case user_input
   when "help"
@@ -41,4 +40,3 @@ while user_input = gets.chomp
   end
   end
 end
-run
