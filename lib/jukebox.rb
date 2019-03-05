@@ -17,6 +17,8 @@ def play(songs)
     puts "Invalid input."
   end
 end
+end
+
 
 def list(songs)
   songs.each_with_index do |song, index|
