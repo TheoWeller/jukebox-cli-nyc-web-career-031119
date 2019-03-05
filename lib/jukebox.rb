@@ -21,5 +21,20 @@ def run
   help
   puts "Please enter a command:"
   #binding.pry
-end
+  while user_input = gets.chomp
+    case user_input
+    when "help"
+      help
+    when "play"
+      play
+    when "list"
+      list
+    when "exit"
+      exit_jukebox
+      break
+    else
+      puts "Incorrect command."
+    end
+    end
+  end
 run
