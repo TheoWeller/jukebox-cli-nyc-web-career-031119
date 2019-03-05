@@ -11,13 +11,10 @@ def play(songs)
   list
   puts "Please enter a song name or number:"
   user_input = gets.chomp
-  if user_input.length == 1
-    user_input.to_i
-    puts "Playing #{songs[user_input]}"
-  elsif songs.include(user_input)
+  if user_input == songs[user_input]
     puts "Playing #{songs[user_input]}"
   else
-    puts "Invalid input"
+    puts "Invalid input."
   end
 end
 
