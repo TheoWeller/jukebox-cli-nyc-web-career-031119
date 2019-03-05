@@ -8,13 +8,13 @@ def help
   - exit : exits this program"
 end
 
-def play(keyword)
+def play
 end
 
-def list(keyword)
+def list
 end
 
-def exit_jukebox(keyword)
+def exit_jukebox
 end
 
 def run
