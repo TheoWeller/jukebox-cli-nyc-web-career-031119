@@ -7,7 +7,7 @@ def help
   - exit : exits this program"
 end
 
-def play(songs)
+def play
   list
   puts "Please enter a song name or number:"
   user_input = gets.chomp
@@ -37,7 +37,7 @@ def run(songs)
     when "help"
       help
     when "play"
-      play(songs)
+      play
     when "list"
       list(songs)
     when "exit"
