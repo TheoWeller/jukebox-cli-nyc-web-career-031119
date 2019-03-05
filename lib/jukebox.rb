@@ -40,4 +40,4 @@ while user_input = gets.chomp
   end
   end
 end
-run
+run()
