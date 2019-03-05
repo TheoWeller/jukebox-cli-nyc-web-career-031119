@@ -20,7 +20,7 @@ end
 def run
   help
   puts "Please enter a command:"
-  binding.pry
+  #binding.pry
 while user_input = gets.chomp
   case user_input
   when "help"
