@@ -10,7 +10,12 @@ end
 def play(songs)
   list
   puts "Please enter a song name or number:"
-  
+  user_input = gets.chomp
+  if user_input == songs[user_input]
+    puts "Playing #{songs[user_input]}"
+  else
+    puts "Invalid input."
+  end
 end
 
 def list(songs)
