@@ -10,9 +10,13 @@ def help
 end
 
 def play
+  "Please enter a song name or number:"
+  user_input = gets.chomp
+  if user_input ==
 end
 
 def list
+  counter = 1
   songs = [
     "Phoenix - 1901",
     "Tokyo Police Club - Wait Up",
@@ -25,7 +29,8 @@ def list
     "Amos Lee - Keep It Loose, Keep It Tight"
   ]
   songs.each do |song|
-  puts song
+  puts "#{counter}. #{song}"
+  counter += 1
 end
 end
 
