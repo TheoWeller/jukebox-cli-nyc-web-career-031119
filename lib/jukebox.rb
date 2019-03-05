@@ -29,6 +29,7 @@ while user_input = gets.chomp
     list
   else "exit"
     exit_jukebox
+    break
   end
 end
 run
