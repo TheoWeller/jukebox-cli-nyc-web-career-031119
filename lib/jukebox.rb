@@ -21,5 +21,5 @@ def run
   help
   puts "Please enter a command:"
   #binding.pry
-
+end
 run
