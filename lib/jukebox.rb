@@ -22,7 +22,7 @@ end
 def play
   list
   puts "Please enter a song name or number:"
-  user_input = gets.chomp.to_i
+  user_input = gets.chomp
   if user_input.length == 1
     user_input.to_i
     puts "Playing #{songs[user_input]}"
