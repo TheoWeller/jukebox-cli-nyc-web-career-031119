@@ -23,8 +23,6 @@ def run
   #binding.pry
   user_input = ""
 while user_input = gets.chomp do
-end
-end
   case user_input
   when "help"
     break
