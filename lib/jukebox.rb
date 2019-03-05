@@ -19,9 +19,8 @@ end
 def run
   help
   puts "Please enter a command:"
-  response = gets.chomp
-
-  case response
+while user_input = gets.chomp
+  case user_input
   when "help"
     help
   when "play"
