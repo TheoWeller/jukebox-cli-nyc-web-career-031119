@@ -24,7 +24,7 @@ def run
 while user_input = gets.chomp
   case user_input
   when "help"
-    help()
+    help
   when "play"
     play
   when "list"
