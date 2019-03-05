@@ -31,5 +31,6 @@ while user_input = gets.chomp
     exit_jukebox
     break
   end
+  end
 end
 run
