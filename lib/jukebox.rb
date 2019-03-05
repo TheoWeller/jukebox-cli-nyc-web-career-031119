@@ -12,7 +12,7 @@ end
 def play
   "Please enter a song name or number:"
   user_input = gets.chomp
-  if user_input ==
+  #if user_input ==
 end
 
 def list
