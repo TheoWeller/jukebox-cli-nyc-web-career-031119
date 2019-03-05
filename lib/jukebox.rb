@@ -20,6 +20,7 @@ def help
 end
 
 def play
+  list
   "Please enter a song name or number:"
   user_input = gets.chomp.to_i
   if user_input == integer && (1..9)
